@@ -1,0 +1,299 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(26, 26, 26);
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 6.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 1.875rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    z-index: 100;
+}
+
+a {
+    color: white;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logo {
+    height: 4.375rem;
+    width: 4.375rem;
+}
+
+header nav ul {
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header li {
+    padding-left: 2rem;
+}
+
+a img {
+    height: 2rem;
+    width: 2rem;
+}
+
+
+/* banner */
+.banner {
+    width: 60%;
+    height: 150px;
+    margin: 0 auto 1.5rem;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 3.75rem;
+}
+
+
+/* hero */
+#hero {
+    width: 100%;
+    height: 37.5rem;
+    background-image: url(../images/HeroPC_Wide.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1.5rem auto;
+}
+
+h1 {
+    font-size: 2.125rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.container-hook {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 9.375rem;
+    width: 20%;
+    padding: 2rem 2rem 3rem;
+    left: 25rem;
+    border-radius: 1rem;
+}
+
+#hero .slogan {
+    padding-bottom: 2rem;
+}
+
+#hero .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#hero a {
+    background-color: rgb(0, 114, 0);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin: 0 1.5rem;
+}
+
+#hero img {
+    height: 37.5rem;
+}
+
+
+/* refurbished section */
+#refurbished {
+    margin: 2.5rem auto;
+    width: 76%;
+}
+
+.computer-line-up {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ref-pc {
+    width: 21.875rem;
+    /* margin: 0 0.5rem; */
+}
+
+.ref-pc img{
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.ref-pc p, .ref-pc h5 {
+    margin-top: 0.5rem;
+}
+
+p.price {
+    font-weight: bold;
+}
+
+h5.details {
+    width: 100%;
+    background-color: rgb(0, 114, 0);
+    text-align: center;
+    padding: 0.5rem 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+/* Use-case section */
+#use-case-container {
+    margin: 2.5rem auto;
+    background-color: rgb(39, 39, 39);
+    padding: 1rem 0 1rem;
+    width: 76%;
+    border-radius: 1.5rem;
+}
+
+#use-case-container h2 {
+    line-height: 1.2em;
+}
+
+.use-cases {
+    width: 70%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 3.125rem);
+    gap: 1.25rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.use-cases h4 {
+    background-color: rgb(33, 36, 41);
+    padding: 1rem 0;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    /* width: 200px; */
+}
+
+#use-case-container h3 {
+    line-height: 1.5em;
+}
+
+#use-case-container h3 a {
+    background-color: rgb(0, 114, 0);
+    padding: .5rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0 0;
+}
+
+
+/* trust section */
+#trust {
+    width: 76%;
+    margin: 2.5rem auto;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.companies .img-container {
+    width: 22.5rem;
+    height: 12rem;
+    margin: 1rem 1rem;
+}
+
+.companies .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.img-container.dark {
+    background-color: white;
+}
+
+
+/* footer */
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+footer p {
+    width: 20%;
+    text-align: center;
+}
+
+footer nav{
+    width: 80%;
+}
+
+
+footer nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 5rem;
+    box-sizing: border-box;
+}
+
+footer li {
+    padding-left: 2rem;
+}
